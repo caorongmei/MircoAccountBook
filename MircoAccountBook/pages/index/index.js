@@ -3,13 +3,14 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    motto: 'Hello，神奇小本',
+    wecome:'欢迎回来！'
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../login/login'
     })
   },
   onLoad: function () {

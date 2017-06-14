@@ -1,0 +1,29 @@
+<!--login.wxml-->
+<view class="container">
+  <view class="content">
+        <!--  登录面板    -->
+        <view class="panel">
+
+            <!--  账号和密码组    -->
+            <view class="group">
+                <label>{{name}}</label>
+                <input placeholder="请输入账号"/>                
+            </view>
+
+            <view class="group">
+                <label>{{pwd}}</label>
+                <input placeholder="请输入密码" type="password"/>
+            </view>
+
+            <!--  登录按钮    -->
+            <view bindtap="loginViewTap" class="login">
+                <button>登录</button>
+            </view>
+
+   </view>
+    </view>
+  <image class="logo" src="/images/login/11.png"></image>
+  <image class="wave" src="/images/login/wave.png" mode="aspectFill"></image>
+  <image class="wave wave-bg" src="/images/login/wave.png" mode="aspectFill"></image>
+</view>
+
